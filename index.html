@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central Dogma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="mainHeading">Central Dogma</h1>
+    <h2 id="transcriptionHeading">Transcription</h2>
+    <table id="transcriptionTable">
+        <tr>
+            <td colspan="2" id="dnaseqLabel">Enter DNA sequence <br></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="dnaSeq"></td>
+        </tr>
+        <tr>
+            <td><button class="submitclear" id="dnaSubmit">Submit</button> <button class="submitclear" id="dnaClear">Clear</button></td>
+        </tr>
+        <tr>
+            <td colspan="2" id="getrnaseqLabel">Derived mRNA sequence:</td>
+        </tr>
+        <tr>
+            <td><p id="getrnaSeq"></p></td>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>

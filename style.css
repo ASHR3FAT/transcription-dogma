@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mainHeading {
+    text-align: center;
+}
+
+#transcriptionTable {
+    width: 100%;
+}
+
+#dnaseqLabel, #getrnaseqLabel {
+    font-size: 2em;
+}
+
+input#dnaSeq {
+    width: 80%;
+    height: 50px;
+    padding: 20px;
+    font-size: 3em;
+    border-radius: 15px;
+}
+
+button.submitclear {
+    width: 41.5%;
+    height: 50px;
+}
+
+p#getrnaSeq {
+    width: 80%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 3em;
+}
